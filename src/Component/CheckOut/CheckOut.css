@@ -1,0 +1,27 @@
+main.check__out .container {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+main.check__out .card {
+  max-width: 40rem;
+  width: 40rem;
+}
+main.check__out .circle span {
+  display: inline-block;
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: 0rem;
+  border-radius: 50%;
+  line-height: 25px;
+  color: white;
+  background: rgb(122, 115, 115);
+  margin-bottom: 0.6rem;
+}
+main.check__out .active span {
+  background: purple;
+}
+main.check__out .active h6 {
+  color: blueviolet;
+}

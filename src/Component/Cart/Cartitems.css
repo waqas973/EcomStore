@@ -1,0 +1,32 @@
+.button__container span {
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  color: rgb(68, 63, 63);
+}
+.button__container .btn {
+  width: 3rem;
+  padding: 0rem;
+  border-radius: 0rem;
+  color: white;
+}
+.button__container .increase_item {
+  background: #dc3545;
+}
+.button__container .increase_item:hover {
+  border: 2px solid #dc3545;
+  background: transparent;
+  color: black;
+}
+.button__container .decrease_item {
+  background: #198757;
+}
+.button__container .decrease_item:hover {
+  border: 2px solid #198757;
+  background: transparent;
+  color: black;
+}
+.button__container .remove_item {
+  background: #dc3545;
+  width: 6rem;
+  margin-left: 2rem;
+}

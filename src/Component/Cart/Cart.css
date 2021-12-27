@@ -1,0 +1,37 @@
+.sub_total {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+.button_container {
+  text-align: end;
+}
+.button_container .empty_cart {
+  background: #dc3545;
+  color: white;
+  border-radius: 0rem;
+  margin-right: 2rem;
+}
+
+.empty_cart:hover {
+  border: 2px solid #dc3545;
+  background: transparent;
+  color: black;
+}
+.button_container .checkout {
+  background: #198757;
+  border-radius: 0rem;
+  color: white;
+}
+.checkout:hover {
+  border: 2px solid #198757;
+  background: transparent;
+  color: black;
+}
+.onItem_inCart {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+.onItem_inCart a {
+  margin-left: 0.3rem;
+}
